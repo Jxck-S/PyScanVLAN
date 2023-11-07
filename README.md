@@ -1,6 +1,6 @@
-## PYScanLAN
+## PYScanVLAN
 
-PYScanLAN is a Python3 program designed for scanning VLANs on a Linux system, by checking all or specified VLAN tags.
+PYScanVLAN is a Python3 program designed for scanning VLANs on a network port by checking all or specified VLAN tags. It is designed to be run on a Linux system that supports the iproute2 commands like `ip`
 
 ### Usage
 
@@ -50,7 +50,8 @@ Ensure that this path points to the correct location of the DHCP client lease fi
 ### Requirements
 
 - Python 3.x
-- Linux operating system (Preferably Debian, it was devoloped on Debian)
+- Linux operating system (Preferably Debian; it was developed on Debian)
+- iproute2 on linux
 
 
 #### Example Output
