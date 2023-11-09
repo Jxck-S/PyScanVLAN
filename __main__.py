@@ -195,7 +195,7 @@ def main():
                 
             vlans_with_ips.append(default)
         # Check VLANs one by one
-        for vlan_id in range(VLAN_CHECK_RANGE_START, VLAN_CHECK_RANGE_END):
+        for vlan_id in range(VLAN_CHECK_RANGE_START, VLAN_CHECK_RANGE_END+1):
             result = check_vlan(vlan_id)
             if result:
                 vlans_with_ips.append(result)
